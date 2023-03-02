@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Lendo arquivo CSV usando ; como delimitador
-objetos = pd.read_csv('d:/tmp/lista_objetos_minio1.csv', delimiter=';')
+objetos = pd.read_csv('~/public_html/tmp/lista_objetos_minio.csv', delimiter=';')
 
 # Imprimindo dataframe
 print(objetos)
