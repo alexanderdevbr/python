@@ -10,7 +10,6 @@ def desvio(serie):
 
     # Calculando a Variancia que e a media do vetor com o quadrado da diferenca
     desvio = variancia ** 0.5
-
     return media, quadrados_diferenca_media, variancia, desvio
 
 
@@ -24,6 +23,7 @@ print("Media.........: %.2f" % m)
 print("Variancia.....: %.2f" % v)
 print("Desviro Padrao: %.2f" % d)
 print("")
+
 serie = [1,4,7,2,6]
 m, qdm, v, d = desvio(serie)
 print("Serie.........:", serie)
