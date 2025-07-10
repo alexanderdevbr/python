@@ -15,7 +15,8 @@ $ xhost +SI:localuser:alexander
 ## Construindo a imagem
 Construa a imagem Docker:
 ~~~Shell
-   docker build -t python-app-cursor .
+$ docker build -t python-app-cursor:1.0 .
+$ docker image tag python-app-cursor:1.0 python-app-cursor:latest
 ~~~
 
 ## Rodando container
