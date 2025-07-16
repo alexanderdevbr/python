@@ -19,10 +19,10 @@ while True:
     x = random.randint(0, 500)
     y = random.randint(0, 500)
     z += 1
-    pyautogui.moveTo(x, y)
+    pyautogui.moveTo(x, y, duration=1)
 
     localtime = time.localtime()
     result = time.strftime("%I:%M:%S %p", localtime)
 
     print('Move #'+ str(z) +' at ' + str(result) + ' [' + str(x) + ',' + str(y) + ']')
-    time.sleep(30)
+    time.sleep(10)
